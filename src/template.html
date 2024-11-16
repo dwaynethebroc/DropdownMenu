@@ -3,7 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/3e541f5465.js" crossorigin="anonymous"></script>
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+      <div class="menu">
+        <i class="fa-solid fa-bars menu-icon" id='burger'></i>
+        <div class="option-container" id='option-container' style='visibility: hidden;'>
+          <div class='dropdown-option'>Copy</div>
+          <div class='dropdown-option'>Edit</div>
+          <div class='dropdown-option'>Delete</div>
+        </div>
+      </div>
+
+      <div class='imageCarousel'>
+        <div class="pictureFrame">
+          <div class="picture">
+            <img src="imgs/nusaBroc.jpg" alt="Broc in Nusa Penida" style='width: 100%;'>
+            <div class="text">Broc in Nusa Penida</div>
+          </div>
+
+          <div class="picture">
+            <img src="imgs/diveBroc.jpg" alt="Broc diving" style='width: 100%;'>
+            <div class="text">Broc diving</div>
+          </div>
+
+          <div class="picture">
+            <img src="imgs/TasBroc.jpg" alt="Broc enjoying nature" style='width: 100%;'>
+            <div class="text">Broc enjoying nature</div>
+          </div>
+
+          <div class="picture">
+            <img src="imgs/cowBroc.JPEG" alt="Broc featuring cow" style='width: 100%;'>
+            <div class="text">Broc ft. cow</div>
+          </div>
+
+          <a class="prev">&#10094;</a>
+          <a class="next">&#10095;</a>
+        </div>
+        <div class="dots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+  </body>
 </html>
